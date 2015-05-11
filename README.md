@@ -1,4 +1,4 @@
-# Blueprint Nginx PHP example
+# Constructor Nginx PHP example
 
 
 This example will build an EC2 Instance with:
@@ -10,12 +10,11 @@ This example will build an EC2 Instance with:
 ## Setup
 
 ```sh
-make init-dev
+pip install constructor
 ```
 
 ## Build Infrastructure
 
 ```sh
-cd dev
-./launch.py
+construct
 ```
